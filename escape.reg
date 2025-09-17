@@ -1,0 +1,49 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\powershell.exe]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\powershell_ise.exe]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mmc.exe]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\gpedit.msc]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msconfig.exe]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\schtasks.exe]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\procexp.exe]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\autoruns.exe]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableTaskMgr"=-
+"DisableRegistryTools"=-
+"DisableSR"=-
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\System]
+"DisableCMD"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PowerShell]
+"EnableScripts"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore]
+"DisableSR"=-
+"DisableConfig"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoClose"=-
+"NoRun"=-
+"NoFind"=-
+"NoStartMenuMorePrograms"=-
+"NoStartMenuMyGames"=-
+"NoStartMenuMyMusic"=-
+"NoStartMenuMyDocs"=-
+"NoStartMenuMyPics"=-
+"NoStartMenuNetworkPlaces"=-
+"NoStartMenuPinnedList"=-
+"NoStartMenuMFUprogramsList"=-
+"NoStartMenuSubFolders"=-
+"NoStartMenuEjectPC"=-
+"NoMyComputer"=-
+"NoControlPanel"=-
+"NoFolderOptions"=-
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule]
+"Start"=dword:00000002
+
+
+
