@@ -1,0 +1,119 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableTaskMgr"=dword:00000000
+"DisableRegistryTools"=dword:00000000
+"DisableSR"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\System]
+"DisableCMD"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PowerShell]
+"EnableScripts"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\powershell.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\powershell_ise.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\cmd.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mmc.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\gpedit.msc]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\msconfig.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\schtasks.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\procexp.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\autoruns.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\regedit64.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\wmic.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\net.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sc.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\eventvwr.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\cscript.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\wscript.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\taskkill.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\taskschd.msc]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\pwsh.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\diskmgmt.msc]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\diskpart.exe]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\compmgmt.msc]
+"DisableExe"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\explorer.exe]
+"DisableExe"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoClose"=dword:00000000
+"NoRun"=dword:00000000
+"NoFind"=dword:00000000
+"NoStartMenuMorePrograms"=dword:00000000
+"NoStartMenuMyGames"=dword:00000000
+"NoStartMenuMyMusic"=dword:00000000
+"NoStartMenuMyDocs"=dword:00000000
+"NoStartMenuMyPics"=dword:00000000
+"NoStartMenuNetworkPlaces"=dword:00000000
+"NoStartMenuPinnedList"=dword:00000000
+"NoStartMenuMFUprogramsList"=dword:00000000
+"NoStartMenuSubFolders"=dword:00000000
+"NoStartMenuEjectPC"=dword:00000000
+"NoMyComputer"=dword:00000000
+"NoControlPanel"=dword:00000000
+"NoFolderOptions"=dword:00000000
+"NoNetConnectDisconnect"=dword:00000000
+"NoNetHood"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Schedule]
+"Start"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog]
+"Start"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Winmgmt]
+"Start"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Installer]
+"DisableMSI"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SystemRestore]
+"DisableSR"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore]
+"DisableConfig"=dword:00000000
